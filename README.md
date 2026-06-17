@@ -10,12 +10,3 @@ Hi! I am a student passionate about turning raw data into clear, actionable busi
 
 ## 📈 Featured Projects
 *(Projects coming soon! I am currently working on building my first data analysis project.)*
-
-### 🔄 Project 1: Indian Sweets Popularity by State
-* **Goal:** Helps bussinesses understand regional preferences and adjust marketing and produt offerings accordingly.
-* **Tools Used:** SQL, Power BI
-* **Status:** In Progress 🛠️
-
-## 📫 Connect With Me
-* **LinkedIn:** [www.linkedin.com/in/sidra-riaz-0924a5389]
-* **Email:** [sidrariaz2604@gmail.com]
