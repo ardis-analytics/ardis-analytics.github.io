@@ -17,5 +17,5 @@ Hi! I am a student passionate about turning raw data into clear, actionable busi
 * **Status:** In Progress 🛠️
 
 ## 📫 Connect With Me
-* **LinkedIn:** [https://www.linkedin.com/in/sidra-riaz-0924a5389?utm_source=share_via&utm_content=profile&utm_medium=member_android]
-* **Email:** sidrariaz2604@gmail.com
+* **LinkedIn:** [www.linkedin.com/in/sidra-riaz-0924a5389]
+* **Email:** [sidrariaz2604@gmail.com]
