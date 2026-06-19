@@ -31,21 +31,21 @@ padding:12px 0;
 }
 
 .navbar-brand{
-font-size:1.6rem;
+font-size:1.5rem;
 font-weight:700;
+letter-spacing:1px;
 }
 
 .nav-link{
+color:white !important;
 font-size:0.9rem;
 white-space:nowrap;
-color:white !important;
-margin-left:8px;
+margin-left:6px;
 transition:.3s;
 }
 
 .nav-link:hover{
 color:#ffd166 !important;
-transform:translateY(-2px);
 }
 
 /* TITLE */
@@ -54,7 +54,7 @@ transform:translateY(-2px);
 font-family:'Cinzel',serif;
 font-size:3rem;
 text-align:center;
-margin:30px 0;
+margin:25px 0;
 background:linear-gradient(
 90deg,
 #ffd166,
@@ -66,72 +66,77 @@ background:linear-gradient(
 -webkit-text-fill-color:transparent;
 }
 
-/* HERO IMAGE */
+/* BANNER */
 
 .banner{
-width:85%;
+width:88%;
 margin:auto;
 margin-bottom:20px;
 }
 
 .banner img{
 width:100%;
-border-radius:18px;
 display:block;
+border-radius:16px;
 }
 
-/* TICKER */
+/* MOVING TEXT */
 
 .ticker{
 overflow:hidden;
 white-space:nowrap;
 background:#111;
-padding:12px;
+padding:14px;
+margin-bottom:0;
 }
 
 .ticker span{
 display:inline-block;
 padding-left:100%;
-color:#ffd166;
-font-weight:600;
 font-size:1.1rem;
-animation:scroll 40s linear infinite;
+font-weight:600;
+color:#ffd166;
+animation:scroll 35s linear infinite;
 }
 
 @keyframes scroll{
-from{transform:translateX(0);}
-to{transform:translateX(-100%);}
+from{
+transform:translateX(0);
+}
+to{
+transform:translateX(-100%);
+}
 }
 
-/* INTRO SECTION */
+/* INTRO */
 
 .intro{
 background:#f7f5f1;
 color:#222;
-padding:70px 7%;
+padding:80px 8%;
 }
 
 .intro-container{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:40px;
-align-items:start;
+max-width:1000px;
+margin:auto;
+text-align:center;
 }
 
 .hero-heading{
 font-family:'Cinzel',serif;
 font-size:2.4rem;
-line-height:1.2;
 margin-bottom:25px;
+line-height:1.3;
 }
 
 .contact-btn{
 border:2px solid #444;
 background:none;
-padding:10px 28px;
+padding:10px 30px;
 border-radius:30px;
-margin-bottom:25px;
+margin-bottom:35px;
 transition:.3s;
+font-weight:500;
 }
 
 .contact-btn:hover{
@@ -140,32 +145,10 @@ color:white;
 }
 
 .intro p{
+max-width:900px;
+margin:0 auto 24px auto;
 font-size:1rem;
-line-height:1.8;
-margin-bottom:20px;
-max-width:650px;
-}
-
-.left{
-padding-right:20px;
-}
-
-.right{
-display:flex;
-justify-content:center;
-}
-
-.image-wrapper{
-height:600px;
-max-width:500px;
-overflow:hidden;
-border-radius:250px 250px 0 0;
-}
-
-.image-wrapper img{
-width:100%;
-height:100%;
-object-fit:cover;
+line-height:1.9;
 }
 
 /* FOOTER */
@@ -175,6 +158,7 @@ background:#000;
 color:white;
 text-align:center;
 padding:20px;
+font-size:0.9rem;
 }
 
 /* MOBILE */
@@ -182,23 +166,15 @@ padding:20px;
 @media(max-width:992px){
 
 .site-title{
-font-size:2.2rem;
-}
-
-.intro-container{
-grid-template-columns:1fr;
+font-size:2.1rem;
 }
 
 .hero-heading{
-font-size:2rem;
+font-size:1.8rem;
 }
 
-.image-wrapper{
-height:450px;
-}
-
-.nav-link{
-margin-left:0;
+.intro{
+padding:60px 7%;
 }
 
 }
@@ -277,6 +253,7 @@ data-bs-target="#navbarNav">
 </ul>
 
 </div>
+
 </div>
 </nav>
 
@@ -286,13 +263,17 @@ data-bs-target="#navbarNav">
 The Analytics Prism
 </h1>
 
-<!-- HERO IMAGE -->
+<!-- BANNER IMAGE -->
 
 <div class="banner">
-<img src="analytics-banner.jpg" alt="Analytics Banner">
+
+<!-- Replace filename with your actual image filename -->
+
+<img src="Screenshot (642).png" alt="Analytics Banner">
+
 </div>
 
-<!-- TICKER -->
+<!-- MOVING TEXT -->
 
 <div class="ticker">
 <span>
@@ -300,16 +281,13 @@ Turning Chaotic Data Into Actionable Decisions • Turning Chaotic Data Into Act
 </span>
 </div>
 
-<!-- INTRO -->
+<!-- INTRO SECTION -->
 
 <section class="intro">
 
 <div class="intro-container">
 
-<div class="left">
-
 <h2 class="hero-heading">
-My Data Analytics Portfolio:<br>
 Turning Data Into Decisions
 </h2>
 
@@ -328,16 +306,6 @@ This portfolio showcases my analytics projects, technical skills, and continuous
 <p>
 I'm currently building the experience needed to launch my career in analytics and contribute to data-driven teams that create measurable impact.
 </p>
-
-</div>
-
-<div class="right">
-
-<div class="image-wrapper">
-<img src="Screenshot (642).png" alt="Dashboard">
-</div>
-
-</div>
 
 </div>
 
